@@ -1,0 +1,8 @@
+version: '3'
+services:
+  php:
+    image: composer
+    command: composer test
+    volumes:
+      - ${PWD}:/app
+
